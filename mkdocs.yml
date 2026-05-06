@@ -1,0 +1,53 @@
+site_name: ChatGPT Prompts
+site_description: Biblioteca Especializada de Prompts para ChatGPT
+site_author: Caique Contarini
+site_url: https://caiquecontarini.github.io/chatgpt-prompts/
+repo_url: https://github.com/caiquecontarini/chatgpt-prompts
+repo_name: caiquecontarini/chatgpt-prompts
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: green
+      accent: emerald
+      toggle:
+        icon: material/brightness-7
+        name: Light mode
+    - scheme: default
+      primary: green
+      accent: emerald
+      toggle:
+        icon: material/brightness-4
+        name: Dark mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+  - glightbox
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Personas: personas.md
+  - Educação: educacao.md
+  - Negócios: negocios.md
+  - Tecnologia: tecnologia.md
+  - Como Usar: como-usar.md
+  - Contribuir: CONTRIBUIR.md
